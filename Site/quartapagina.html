@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="DNZ.css"/>
+    <script type="text/javascript" src="DNZ.js"></script>
+    <link rel="shortcut icon" href="Imagens/favicon.ico">
+    <title>DNZ Store</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <a href="terceirapagina.html"><button type="button" class="botao" id="botaosegpag">Página anterior</button></a>
+        <a href="paginainicial.html"><button type="button" class="botao" id="botaosegpag">Página Inicial</button></a>
+        <h1><img id="logo" src="Imagens/logofacebook.jpg" width="8%">
+            DNZ Store</h1>
+        </nav>
+    </header>
+    <section>
+        <div class="divcompras">
+            <form method="POST" action="mailto:storednz@gmail.com">
+                <fieldset>
+                    <legend>Seleção de produtos e lista de compras&nbsp;</legend>
+                    <textarea class="listacompras"
+                    name="listapedidos" readonly></textarea>
+                    <fieldset>
+                        <!--Local para selecionar os produtos-->
+                        <legend>Selecionado&nbsp;</legend>
+                        <label class="colLabSelProd">Kits:
+                            <select name="selProduto" class="colSelProd">
+                                <option>---</option>
+                                <optgroup>
+                                    <option value="CanecaAlmofada">Caneca e almofada</option>
+                                    <option value="CanecaCamisa">Caneca e camisa</option>
+                                    <option value="CamisaAlmofada">Camisa e almofada</option>
+                                    <option value="CanecaCamisaAlmofada">Caneca, camisa e almofada</option>
+                                </optgroup>
+                            </select>
+                        </label>
+                        <label class="colLabSelProd">Caneca:
+                            <select name="selProduto" class="colSelProd">
+                                <option>---</option>
+                                <optgroup>
+                                    <option value="CanecaNormal">Caneca alça normal</option>
+                                    <option value="CanecaCoração">Caneca alça coração</option>
+                                </optgroup>
+                            </select>
+                        </label>
+                        <label class="colLabSelProd">Camisa:
+                            <select name="selProduto" class="colSelProd">
+                                <option>---</option>
+                                <optgroup>
+                                    <option value="CamisaP">Tamanho P</option>
+                                    <option value="CamisaM">Tamanho M</option>
+                                    <option value="CamisaG">Tamanho G</option>
+                                </optgroup>
+                            </select>
+                        </label>
+                        <label class="colLabSelProd">Almofada:
+                            <select name="selProduto" class="colSelProd">
+                                <option>---</option>
+                                <optgroup>
+                                    <option value="AlmofadaPequena">Almofada pequena</option>
+                                    <option value="AlmofadaMedia">Almofada média</option>
+                                    <option value="AlmofadaGrande">Almofada grande</option>
+                                </optgroup>
+                            </select>
+                        </label>
+                        <!--Local do desconto-->
+                        <input class="linhaProdSel" type="text" name="TXTdesc" id="txtDesc" readonly/>
+                        <!--Botão comprar-->
+                        <input class="elemEsq" type="button" value="Comprar"/>
+                        <!--Local Preço-->
+                        <label class="elemDir" for="TXTPreco"><br/>R$<input type="text" name="TXTPreco" readonly id="TXTPreco" class="inpMedio"/></label>
+                    </fieldset>
+                    <!--Local Preço Total-->
+                    <label class="elemDir" for="TXTTotal"><br/>Total:<input type="text" name="TXTTotal" readonly id="TXTTotal" class="inpMedio"/></label>
+                </fieldset>
+                <div class="botoes">
+                    <input type="submit" value="Enviar"/>
+                    <input type="reset" value="Limpar"/>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <address>
+            <p id="contato">Entre em contato:
+            &nbsp;<strong><a href="tel:+5521994926951">(21)994926951</a></strong>&nbsp;&nbsp;
+            &nbsp;<strong><a href="mailto:deniziadapenha@gmail.com">deniziadapenha@gmail.com</a></strong>&nbsp;&nbsp;
+            &nbsp;<strong><a href="mailto:storednz@gmail.com">storednz@gmail.com</a></strong>
+            </p>
+        </address>
+    </footer>
+</body>
+</html>
