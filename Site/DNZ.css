@@ -21,6 +21,16 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+.info2{
+    text-align: justify;
+    margin-left: 55%;
+    margin-right: 2%;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
 .tabInfo{
     color: #f0b5fc;
     margin: 0 auto;
@@ -52,10 +62,9 @@ h1{
     max-height: 220px;
     min-height: 210px;
 }
-#nomeb{
-    float: right;
+#nomeb{    
     margin-top: 0;
-    padding: 4%;
+    padding: 1%;
 }
 
 embed{
@@ -121,10 +130,13 @@ img#logo{
 }
 /*************************************************************************/
 /*carrossel*/
+/*Não estou conseguindo afastar com margin-right pois tive que usar float right na section*/
 .carrossel{
     display: block;
-    margin: auto;
-    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 40%;
+    padding-bottom: 0;    
     height: 293px;
     width: 30%;
 }
