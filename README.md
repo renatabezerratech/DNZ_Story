@@ -1,7 +1,17 @@
 # DNZ Story
-Site em construção.
+Objetivo: O site é uma loja virtual .
+<h4 align="center"> 
+	🚧  Projeto 🚀 Em construção...  🚧
+</h4>
 
-O site é uma loja virtual e ainda está sendo construída. Está sendo utilizado o HTML5, o CSS3 e JS.
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto: HTML5, CSS3 e JS.
+
+Autora: Renata Silva Bezerra 
+
+Colaboração: Rafaela Bezerra de Figueiredo
+
 <img src="Site/Imagens/DNZpagIn.png">
 <img src="Site/Imagens/DNZsegPag.png">
 <img src="Site/Imagens/DNZpagForm.png">
