@@ -21,13 +21,14 @@
     <section>
         <div class="divcompras">
             <form method="POST" action="mailto:storednz@gmail.com">
-                <fieldset>
+                <fieldset class="mensagemform">
                     <legend>Seleção de produtos e lista de compras&nbsp;</legend>
-                    <textarea class="listacompras"
-                    name="listapedidos" readonly></textarea>
-                    <fieldset>
+                    
+                    <fieldset class="mensagemform">
+
                         <!--Local para selecionar os produtos-->
                         <legend>Selecionado&nbsp;</legend>
+
                         <label class="colLabSelProd">Kits:
                             <select name="selProduto" class="colSelProd">
                                 <option>---</option>
@@ -39,6 +40,7 @@
                                 </optgroup>
                             </select>
                         </label>
+
                         <label class="colLabSelProd">Caneca:
                             <select name="selProduto" class="colSelProd">
                                 <option>---</option>
@@ -48,6 +50,7 @@
                                 </optgroup>
                             </select>
                         </label>
+
                         <label class="colLabSelProd">Camisa:
                             <select name="selProduto" class="colSelProd">
                                 <option>---</option>
@@ -58,6 +61,7 @@
                                 </optgroup>
                             </select>
                         </label>
+
                         <label class="colLabSelProd">Almofada:
                             <select name="selProduto" class="colSelProd">
                                 <option>---</option>
@@ -68,19 +72,33 @@
                                 </optgroup>
                             </select>
                         </label>
-                        <!--Local do desconto-->
-                        <input class="linhaProdSel" type="text" name="TXTdesc" id="txtDesc" readonly/>
+
                         <!--Botão comprar-->
+                        <br/>
+                        <br/>
                         <input class="elemEsq" type="button" value="Comprar"/>
+
+                        <!--Espaço para mensagem-->
+                        <br/>
+                        <p>
+                        <div>
+                            <label for="msg">Mensagem:</label>
+                            <textarea id="msg" placeholder="Observações" class="mensagemform"></textarea>
+                        </div>   
+                        </p>                 
+                        
                         <!--Local Preço-->
-                        <label class="elemDir" for="TXTPreco"><br/>R$<input type="text" name="TXTPreco" readonly id="TXTPreco" class="inpMedio"/></label>
+                        <label class="elemDir" for="TXTPreco"><br/>R$<input type="text" name="TXTPreco" readonly id="TXTPreco" class="inpMedio" placeholder="Valor parcial"/></label>
+                        
                     </fieldset>
+                    
                     <!--Local Preço Total-->
-                    <label class="elemDir" for="TXTTotal"><br/>Total:<input type="text" name="TXTTotal" readonly id="TXTTotal" class="inpMedio"/></label>
+                    <label class="elemDir" for="TXTTotal"><br/>Total:<input type="text" name="TXTTotal" readonly id="TXTTotal" class="inpMedio" placeholder="Total a pagar"/></label>
+
                 </fieldset>
-                <div class="botoes">
-                    <input type="submit" value="Enviar"/>
-                    <input type="reset" value="Limpar"/>
+                <div>
+                    <input type="submit" value="Enviar" class="mensagemform"/>
+                    <input type="reset" value="Limpar" class="mensagemform"/>
                 </div>
             </form>
         </div>

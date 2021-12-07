@@ -68,9 +68,9 @@ h1{
 }
 
 embed{
-    width:657px;
-    height:370px;
-    margin-left: 1%;
+    width:585px;
+    height:330px;
+    margin-left: 4%;
 }
 article#in{
     margin: 0;
@@ -187,7 +187,7 @@ img#logo{
 }
 section#sec1{
     float: right;
-    width: 50%;
+    width: 38%;
     font-family: Arial, Helvetica, sans-serif;
 }
 .texto{
@@ -226,10 +226,18 @@ section#sec1{
 .elemEsq{
     float: left;
     display: block;
+    background-color: #f0b5fc;
+    box-shadow: #791b61 0 5px 5px;
+    border-radius: 10px;
+    font-size: large;
 }
 .elemDir{
     float: right;
     display: block;
+}
+.mensagemform{
+      border-image-source: url("Imagens/BordaparahtmlDNZ.png");
+      border-image-slice: 30;
 }
 
 
